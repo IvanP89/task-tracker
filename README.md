@@ -1,27 +1,31 @@
-# AngularCrash
+# Task Tracker
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+A simple task tracker with full front-end functionality built using Angular 13.
 
-## Development server
+## Funcitonality
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The app performs simple CRUD operations by connecting the front-end with a fake REST API implemented using [json-server](https://www.npmjs.com/package/json-server).
 
-## Code scaffolding
+### Create tasks
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The "Add" buttom toggles the form to create a new task.
 
-## Build
+![gif showing the create functionality](https://i.imgur.com/ymHQpMr.gif)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Update tasks
 
-## Running unit tests
+The toggle of the green edge shows the "set reminder" attribute being activated/deactivated.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![gif showing the update functionality](https://i.imgur.com/rSLBvkx.gif)
 
-## Running end-to-end tests
+### Delete tasks
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+You can delete tasks by clicking the icon on the right side.
 
-## Further help
+![gif showing the delete functionality](https://i.imgur.com/0BtHRSF.gif)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Navigation
+
+The navigation is implemented through Angular's routing modules.
+
+![gif showing the navigation functionality](https://i.imgur.com/AgBmJmH.gif)
